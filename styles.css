@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Castoro:ital@1&family=Charm&family=Cormorant+Garamond:wght@300&family=Courgette&family=Dancing+Script&family=Gabriela&family=Graduate&family=Merienda&family=Merienda+One&family=Nunito:ital,wght@0,400;1,300&family=Old+Standard+TT&family=Pacifico&family=Quintessential&family=Radio+Canada:wght@500&family=Ramaraja&family=Roboto:wght@100;400&family=UnifrakturMaguntia&family=Unna&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: white;
+}
+
+.alphaContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding: 20px;
+
+    height: 100vh;
+    width: 1340px;
+}
+
+/*Nav Bar*/
+.navBar {
+    display: flex;
+
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+
+}
+
+.leftBox {
+    display: flex;
+
+    margin: auto;
+    margin-left: 0px;
+
+    gap: 40px;
+}
+
+#brand, #navLink {
+    margin: auto;
+}
+
+#brand {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#navLink {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.rightBox {
+    display: flex;
+    
+    margin: auto;
+    margin-right: 0px;
+
+    gap: 40px;
+}
+
+.downloadShop {
+    border-radius: 40px;
+    padding: 15px;
+    background-color: #5a31f4;
+}
+
+#download {
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+/*Nav Bar End*/
+
+
+
+
+
+
+
+/* HERO SECTION START */
+
+.heroSection {
+    display: flex;
+
+    margin: auto;
+    margin-top: 50px;
+
+    padding: 0px 72px;
+
+    height: 690px;
+    width: 100%;
+}
+
+/* LEFT SIDE OF HERO SECTION START */
+
+.leftHeroSection {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    height: 100%;
+    width: 55%;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding: 20px;
+
+    height: 500px;
+    width: 100%;
+}
+
+.contentBoxTitle {
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#contentBoxTitle {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.contentBoxGreeting {
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+#contentBoxGreeting {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.contentBoxScanTitle {
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#contentBoxScanTitle {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#barcode1 {
+    height: 130px;
+    width: 130px;
+}
+
+/* LEFT SIDE OF HERO SECTION END */
+
+
+
+
+/* RIGHT SIDE OF HERO SECTION START */
+
+.rightHeroSection {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    position: relative;
+
+    height: 100%;
+    width: 75%;
+}
+
+
+#topLeftImage {
+    border-radius: 5px;
+
+    position: absolute;
+
+    top: 3%;
+    left: 40px;
+
+
+    height: 395px;
+    width: 290px;
+
+    z-index: -1;
+}
+
+#bottomRightImage {
+    border-radius: 5px;
+
+    position: absolute;
+
+    bottom: 0%;
+    right: 20px;
+
+
+    height: 395px;
+    width: 290px;
+
+    z-index: -1;
+}
+
+.phoneVideo {
+    border: 10px solid #e8e8e8;
+    border-radius: 30px;
+    background-color: white;
+
+    position: absolute;
+
+    top: 10%;
+    left: 25%;
+
+    height: 550px;
+    width: 265px;
+}
+
+#phoneVideo {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#pauseIcon {
+    position: absolute;
+
+    left: 45%;
+    bottom: 20px;
+
+    height: 30px;
+    width: 30px;
+}
+
+#playIcon {
+    position: absolute;
+
+    left: 45%;
+    bottom: 20px;
+
+    height: 30px;
+    width: 30px;
+}
+
+#starArt {
+    position: absolute;
+
+    left: 80%;
+    top: 15%;
+
+    height: 60px;
+    width: 60px;
+}
+
+#curlyArrow {
+    position: absolute;
+
+    left: 10%;
+    bottom: -40px;
+
+    height: 40px;
+    width: 40px;
+}
+
+/* RIGHT SIDE OF HERO END */
+
+
+/* HERO SECTION END */
