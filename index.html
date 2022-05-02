@@ -13,15 +13,15 @@
         <nav>
             <div class="navBar">
                 <div class="leftBox">
-                    <p id="brand">shop</p>
+                    <p id="brand"><a href="#">shop</a></p>
 
-                    <p id="navLink">Features</p>
+                    <p id="navLink"><a href="#">Features</a></p>
 
-                    <p id="navLink">Carbon removal</p>
+                    <p id="navLink"><a href="#">Carbon removal</a></p>
 
-                    <p id="navLink">Jobs</p>
+                    <p id="navLink"><a href="#">Jobs</a></p>
 
-                    <p id="navLink">More</p>
+                    <p id="navLink"><a href="#">More</a></p>
                 </div>
 
                 <div class="rightBox">
@@ -63,9 +63,9 @@
                     <video autoplay loop id="phoneVideo" src="/Assests/Videos/Phone-Video-Hero-Section.mp4"></video>
                 </div>
 
-                <img id="pauseIcon" src="/Assests/Icons/Pause-Icon.png" alt="">
+                <img onclick="pause" id="pauseIcon" src="/Assests/Icons/Pause-Icon.png" alt="">
 
-                <img id="playIcon" src="/Assests/Icons/Play-Icon.png" alt="">
+                <img onclick="play" id="playIcon" src="/Assests/Icons/Play-Icon.png" alt="">
 
                 <img id="starArt" src="/Assests/Images/Hero-Section-Star-Art.svg" alt="">
 
@@ -75,8 +75,74 @@
 
 
         <div class="shopdetailSection">
-            
+            <div class="detailSectionTitle">
+                <p id="detailSectionTitle">Shop's got the details covered in one place</p>
+            </div>
+
+            <div class="linkToFeatures">
+                <a href="#">
+                    <p id="linkToFeatures">Learn more about shop</p>
+
+                    <img id="rightArrow" src="/Assests/Icons/Right-Arrow.png" alt="">
+                </a>
+            </div>
+
+            <div class="features">
+                <div class="payBetter">
+                    <img id="featureimage" src="/Assests/Images/Features-Dollar-Sign.svg" alt="">
+
+                    <p id="featureTitle">Pay Better</p>
+
+                    <p id="featureDescription">Speed safely through checkout and plant trees at no extra cost.</p>
+                </div>
+
+                <div class="trackBetter">
+                    <img id="featureimage" src="/Assests/Images/Features-location.svg" alt="">
+
+                    <p id="featureTitle">Track Better</p>
+
+                    <p id="featureDescription">Get real-time delivery updates from cart to home in one place.</p>
+                </div>
+
+                <div class="shopBetter">
+                    <img id="featureimage" src="/Assests/Images/Features-Boots.svg" alt="">
+
+                    <p id="featureTitle">Shop Better</p>
+
+                    <p id="featureDescription">Discover new arrivals from your favorite stores first.</p>
+                </div>
+            </div>
         </div>
+
+        <div class="boxNarc">
+            <p id="dontSettle">Don't settle for meh</p>
+
+            <p id="reasurance">Everything about <br> shopping can be better.</p>
+
+            <p id="contentBoxScanTitle2">Scan to download the app</p>
+
+            <img id="barcode2" src="/Assests/Images/Barcode-2.svg" alt="">
+        </div>
+
+        <footer>
+            <div class="footer">
+                <p id="hashtagTitle">#ShopBetter</p>
+
+                <div class="footerLinks">               
+                    <p id="footerLinks">Twitter</p>
+
+                    <p id="footerLinks">Instagram</p>
+
+                    <p id="footerLinks">Help Center</p>
+
+                    <p id="footerLinks">Store owners</p>
+
+                    <p id="footerLinks">Privacy policy</p>
+
+                    <p id="footerLinks">Terms of Service</p>
+                </div>
+            </div>
+        </footer>
 
 
     </div>
