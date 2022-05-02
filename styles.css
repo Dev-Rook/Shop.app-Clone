@@ -70,6 +70,34 @@ body {
     font-family: 'Radio Canada', sans-serif;
     font-size: 17px;
     font-weight: 500;
+
+    transition: 0.5s;
+}
+
+#navLink a {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    display: flex;
+}
+
+#navLink a:hover {
+    color: #5a31f4;
+}
+
+#navLink a:visited {
+
+}
+
+#navLink a:active {
+    border-bottom: 1px solid #5a31f4;
+}
+
+#expandArrow {
+    margin: auto;
+    margin-left: 5px;
+    height: 10px;
 }
 
 .rightBox {
