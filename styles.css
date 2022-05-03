@@ -87,11 +87,42 @@ body {
 }
 
 #navLink a:visited {
-
+    color: black;
 }
 
 #navLink a:active {
+    color: #5a31f4;
     border-bottom: 1px solid #5a31f4;
+}
+
+#moreNavLink {
+    margin: auto;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    transition: 0.5s;
+}
+
+#moreNavLink a {
+    margin: auto;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    transition: 0.5s;
+}
+
+#moreNavLink a:hover {
+    color: #5a31f4;
+}
+
+#moreNavLink a:visited {
+    color: black;
+}
+
+#moreNavLink a:active {
+    color: #5a31f4;
 }
 
 #expandArrow {
@@ -354,6 +385,7 @@ body {
     font-size: 44px;
     font-weight: 500;
     font-family: 'Radio Canada', sans-serif;
+    text-align: center;
 }
 
 .linkToFeatures {
@@ -516,3 +548,228 @@ body {
     font-weight: 400;
 }
 /* FOOTER END */
+
+
+@media only screen and (max-width: 1340px) {
+    .alphaContainer {
+        width: 100%;
+    }
+
+    .navBar {
+        width: 90%;
+    }
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .alphaContainer {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .navBar {
+        width: 90%;
+
+    }
+
+    .leftBox > #navLink, #moreNavLink {
+        display: none;
+    }
+
+    .heroSection {
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 0px;
+
+        padding: 10px;
+        gap: 20px;
+
+        height: 1600px;
+        width: 100%;
+    }
+
+    .leftHeroSection {
+        height: 900px;
+        width: 100%;
+    }
+
+    .contentBox {
+        margin: auto;
+        margin-top: 0px ;
+
+        text-align: center;
+        width: 60%;
+    }
+
+    .contentBoxTitle {
+        margin: auto;
+        text-align: center;
+    }
+
+    #contentBoxTitle {
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .contentBoxScanTitle {
+        margin: auto;
+        text-align: center;
+    }
+    
+    #contentBoxScanTitle {
+        display: none;
+    }
+
+    #barcode1 {
+        display: none;
+    }
+    
+    .downloadShopBlack {
+        margin: auto;
+        margin-top: 0px;
+        border-radius: 5px;
+        padding: 25px;
+        background-color: black;
+
+        width: 200px;
+    }
+
+    #downloadShopBlack {
+        color: white;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+ 
+    .rightHeroSection {
+        width: 100%;
+    }
+
+    #topLeftImage {
+        border-radius: 5px;
+    
+        position: absolute;
+    
+        top: 0%;
+        left: 0%;
+    
+    
+        height: 395px;
+        width: 290px;
+    
+        z-index: -1;
+    }
+    
+    #bottomRightImage {
+        border-radius: 5px;
+    
+        position: absolute;
+    
+        bottom: 0%;
+        right: 0%;
+    
+    
+        height: 395px;
+        width: 290px;
+    
+        z-index: -1;
+    }
+
+    #pauseIcon {
+        display: none;
+    }
+    
+    #playIcon {
+        display: none;
+    }
+    
+    #starArt {
+        display: none;
+    }
+    
+    #curlyArrow {
+        display: none;
+    }
+
+    .phoneVideo {
+        border: 10px solid #e8e8e8;
+        border-radius: 30px;
+        background-color: white;
+    
+        position: absolute;
+    
+        top: 10%;
+        left: 25%;
+    
+        height: 550px;
+        width: 265px;
+    }
+
+    .shopdetailSection {
+        margin-top: 50px;
+
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #featureDescription {
+        font-size: 20px;
+
+        width: 70%;
+    }
+
+    #reasurance {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+
+    }
+
+    #contentBoxScanTitle2 {
+        display: none;
+    }
+
+    #barcode2 {
+        display: none;
+    }
+        
+    .downloadShopWhite {
+        margin: auto;
+        margin-top: 40px;
+
+        text-align: center;
+
+
+        border-radius: 5px;
+        padding: 25px;
+        background-color: white;
+
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        width: 200px;
+    }
+
+    #downloadShopWhite {
+        margin: auto;
+        
+        color: #5a31f4;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+
+    .footerLinks {
+        width: 100%;
+
+        text-align: center;
+    }
+
+}
