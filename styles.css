@@ -154,6 +154,15 @@ body {
     font-size: 17px;
     font-weight: 500;
 }
+
+
+#menuIcon {
+    display: none;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+}
+
 /*Nav Bar End*/
 
 
@@ -240,6 +249,10 @@ body {
 #barcode1 {
     height: 130px;
     width: 130px;
+}
+
+.downloadShopBlack {
+    display: none;
 }
 
 /* LEFT SIDE OF HERO SECTION END */
@@ -509,6 +522,10 @@ body {
     width: 130px;
 }
 
+.downloadShopWhite {
+    display: none;
+}
+
 /* BODY CONTENT END */
 
 /* FOOTER START */
@@ -520,7 +537,7 @@ body {
     margin: auto;
     margin-top: 190px;
 
-    width: 100%;
+    width: 90%;
 }
 
 #hashtagTitle {
@@ -547,10 +564,23 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
+
+.firstRow {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.secondRow {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
 /* FOOTER END */
 
 
-@media only screen and (max-width: 1340px) {
+@media only screen and (max-width: 768px) {
     .alphaContainer {
         width: 100%;
     }
@@ -564,7 +594,6 @@ body {
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
     .alphaContainer {
-        border: 1px solid black;
         width: 100%;
     }
 
@@ -577,6 +606,17 @@ body {
         display: none;
     }
 
+    .downloadShop {
+        display: none;
+    }
+
+    #menuIcon {
+        display: block;
+        margin: auto;
+        height: 30px;
+        width: 30px;
+    }
+
     .heroSection {
         display: flex;
         flex-direction: column;
@@ -587,7 +627,7 @@ body {
         padding: 10px;
         gap: 20px;
 
-        height: 1600px;
+        height: 1300px;
         width: 100%;
     }
 
@@ -598,10 +638,10 @@ body {
 
     .contentBox {
         margin: auto;
-        margin-top: 0px ;
+        margin-top: 0px;
 
         text-align: center;
-        width: 60%;
+        width: 80%;
     }
 
     .contentBoxTitle {
@@ -610,9 +650,22 @@ body {
     }
 
     #contentBoxTitle {
+        margin-bottom: 0px;
         font-weight: 500;
-        margin-bottom: 30px;
     }
+    
+    .contentBoxGreeting {
+        margin: auto;
+        margin-bottom: 80px;
+
+        width: 100%;
+    }
+
+    #contentBoxGreeting {
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 40px;
+    }
+   
 
     .contentBoxScanTitle {
         margin: auto;
@@ -628,6 +681,7 @@ body {
     }
     
     .downloadShopBlack {
+        display: block;
         margin: auto;
         margin-top: 0px;
         border-radius: 5px;
@@ -646,6 +700,7 @@ body {
 
  
     .rightHeroSection {
+        height: 1000px;
         width: 100%;
     }
 
@@ -741,6 +796,7 @@ body {
     }
         
     .downloadShopWhite {
+        display: block;
         margin: auto;
         margin-top: 40px;
 
@@ -767,9 +823,20 @@ body {
 
 
     .footerLinks {
+        flex-direction: column;
         width: 100%;
 
         text-align: center;
     }
 
+    .firstRow {
+        display: flex;
+    }
+
+    .secondRow {
+        display: flex;
+    }
+
 }
+
+@media only screen and (min-width: 414px) and (max-width: 480px)
