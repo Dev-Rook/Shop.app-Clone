@@ -598,6 +598,7 @@ body {
     }
 
     .navBar {
+        margin-top: 0px;
         width: 90%;
 
     }
@@ -873,7 +874,6 @@ body {
         margin-top: 0px;
 
         padding: 10px;
-        gap: 20px;
 
         height: 1300px;
         width: 100%;
