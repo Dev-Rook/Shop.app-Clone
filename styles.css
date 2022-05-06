@@ -713,6 +713,8 @@ a {
     
         width: 50%;
         height: 100%;
+
+        display: none;
     }
     
     .header {
@@ -1033,6 +1035,8 @@ a {
     
         width: 50%;
         height: 100vh;
+
+        display: none;
     }
     
     .header {

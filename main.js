@@ -27,11 +27,11 @@ play.onclick = function () {
 function toggle() {
     const OC = document.getElementById("sideBar");
 
-    if(OC.style.display === "block") {
-        OC.style.display = "none";
+    if(OC.style.display === "none") {
+        OC.style.display = "block";
     }
 
     else {
-        OC.style.display = "block"
+        OC.style.display = "none"
     }
 }
